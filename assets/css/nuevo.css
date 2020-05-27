@@ -1,0 +1,460 @@
+.navi {
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  justify-content: center;
+  display: flex;
+  /* margin: 0 auto; */
+  /* display: block; */
+  width: 100%;
+}
+
+.btnS {
+  margin-top: 20px;
+}
+
+.btnTw {
+  margin: 0 auto;
+  display: block;
+  padding: 0px 1.75em;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#black {
+  background-color: black;
+}
+
+iframe {
+  width: 512px;
+}
+
+.bannerNew {
+  height: auto;
+  width: auto;
+}
+
+.imgBanner {
+  padding-top: 110px;
+  width: 100%;
+  height: 800px;
+  padding-bottom: 0px !important;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.pLink {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.artImg {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.imgGrid {
+  width: 440px;
+  height: 440px;
+}
+
+.close {
+  box-shadow: none !important;
+  position: absolute;
+  top: 6px;
+  right: 8px !important;
+  color: #f1f1f1;
+  font-size: 38px !important;
+  font-weight: bold;
+  outline: none !important;
+  transition: 0s !important;
+}
+
+.close:hover {
+  outline: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.imgModal {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.sectionGrid {
+  padding-top: 100px;
+  background-color: black;
+}
+
+#three {
+  padding: 20px;
+}
+
+.wrapper {
+  padding: 3em 0 2em 0 !important;
+}
+
+.count, .count1, .count2 {
+  margin-bottom: 10px;
+}
+
+.counter {
+  font-family: 'Fjalla One', sans-serif;
+  color: #ec915b;
+  font-size: 36px;
+}
+
+.contParr {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: #3a3636 !important;
+}
+
+.imgEspacio {
+  height: 400px;
+}
+
+.divFlex {
+  display: flex;
+  margin-left: 50px;
+}
+
+.ulSocial {
+  margin-top: 36px;
+  margin-right: 20px;
+  margin-bottom: 0px !important;
+}
+
+.counter {
+  margin-left: 80px;
+}
+
+a {
+  border-bottom: dotted 0px !important;
+}
+
+table td {
+  width: 1%;
+  padding: 0.75em 0.75em;
+}
+
+.agenda {
+  background-color: #313131 !important;
+  padding: 50px 190px 50px 190px;
+}
+
+#two {
+  padding: 0px !important;
+}
+
+.divSocial {
+  margin-left: auto;
+}
+
+.ulLeft {
+  margin-top: 0px;
+  position: absolute;
+  margin-left: 44%;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.imgDesafios {
+  max-height: 400px;
+}
+
+.divcenter {
+  display: block !important;
+  margin: 0 auto !important;
+  width: 80%;
+}
+
+.imgLogo {
+  padding-bottom: 10px;
+  margin-top: 14px;
+  width: 90px;
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.redButton {
+  background-color: #a00808 !important;
+}
+
+.padd {
+  padding: 30px !important;
+}
+
+.button.primary {
+  background-color: #011161;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+.logoUnlp {
+  width: 130px;
+  padding-bottom: 10px;
+}
+
+.button.primary:hover {
+  background-color: #292929 !important;
+}
+
+.footerNew {
+  background-color: black !important;
+}
+
+#iconTw {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+#myImg {}
+
+.imgGrid:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .imgGrid {
+    width: 320px;
+    height: 320px;
+  }
+
+  .ulLeft {
+    margin-left: 36%;
+  }
+
+  .imgBanner {
+    height: 640px;
+  }
+
+  .btnTw {
+    padding: 0px 0.75em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imgGrid {
+    width: 280px;
+    height: 280px;
+  }
+
+  .btnTw {
+    padding: 0px 0.75em;
+  }
+
+  .ulLeft {
+    margin-left: 36%;
+  }
+
+  .imgBanner {
+    height: 600px;
+  }
+
+  .close {
+    top: 2px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  header.major {
+    padding: 20px;
+    margin: 0 0 3.5em 0;
+  }
+
+  iframe {
+    width: 312px;
+  }
+
+  .displayFlex {
+    display: grid;
+  }
+
+  .imgBanner {
+    height: 420px;
+  }
+
+  .sectionGrid {
+    padding-top: 40px;
+    background-color: black;
+  }
+
+  .imgGrid {
+    width: 320px;
+    height: 320px;
+  }
+
+  .navi {
+    justify-content: normal;
+  }
+
+  .ulLeft {
+    position: initial;
+    margin-left: auto;
+  }
+
+  .imgLogo {
+    padding-bottom: 10px;
+    margin-top: 14px;
+    width: 50px;
+    margin-left: 20px;
+  }
+
+  .artImg {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .divFlex {
+    display: block;
+    margin: 0 auto;
+    padding-right: 80px;
+    /* margin-left: 50px; */
+  }
+
+  .agenda {
+    padding: 20px;
+  }
+
+  .wrapper.style4 {
+    background-color: transparent;
+    padding: 20px !important;
+  }
+
+  .logoUnlp {
+    width: 100px;
+    margin-top: 14px;
+    margin-left: 14px;
+    padding-bottom: 10px;
+  }
+
+  .close {
+    top: 2px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .imgBanner {
+    padding-top: 120px;
+    height: 340px;
+    padding-bottom: 0px !important;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .close {
+    top: 2px;
+    padding: 0px;
+  }
+}
