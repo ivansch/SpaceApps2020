@@ -1,126 +1,20 @@
 {
-  "results": [{
-    "gender": "male",
-    "name": {
-      "title": "Mr",
-      "first": "Nihal",
-      "last": "Balcı"
+  "instructions": [{
+      "a": 1,
+      "b": 1,
+      "move": "moveonto"
     },
-    "location": {
-      "street": {
-        "number": 2642,
-        "name": "Necatibey Cd"
-      },
-      "city": "Bartın",
-      "state": "Kastamonu",
-      "country": "Turkey",
-      "postcode": 75267,
-      "coordinates": {
-        "latitude": "69.4537",
-        "longitude": "-120.0753"
-      },
-      "timezone": {
-        "offset": "-2:00",
-        "description": "Mid-Atlantic"
-      }
+    {
+      "a": 2,
+      "b": 2,
+      "move": "pileover"
     },
-    "email": "nihal.balci@example.com",
-    "login": {
-      "uuid": "c3648e7b-4f3c-4359-9ddd-0efd3eab33f8",
-      "username": "ticklishsnake144",
-      "password": "stanton",
-      "salt": "t9mWpwKh",
-      "md5": "1d726e71aff8e8ef4f7d83151539249b",
-      "sha1": "6e0e39a55a4ec34a2fa6a69bffd613278897fbe1",
-      "sha256": "45ffba5a9bea1672270b2274d6b19367dad57a1067d50cc25642dec413cbea0b"
-    },
-    "dob": {
-      "date": "1992-10-07T10:18:10.735Z",
-      "age": 28
-    },
-    "registered": {
-      "date": "2019-03-17T22:51:20.301Z",
-      "age": 1
-    },
-    "phone": "(296)-712-9501",
-    "cell": "(913)-917-5944",
-    "id": {
-      "name": "",
-      "value": null
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/81.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/81.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
-    },
-    "nat": "TR"
-  }],
-  "info": {
-    "seed": "820c7cbc6412deb2",
-    "results": 1,
-    "page": 1,
-    "version": "1.3"
-  },
-  "results": [{
-    "gender": "female",
-    "name": {
-      "title": "Mrs",
-      "first": "Lina",
-      "last": "Andre"
-    },
-    "location": {
-      "street": {
-        "number": 2513,
-        "name": "Place de L'Abbé-Basset"
-      },
-      "city": "Bordeaux",
-      "state": "Côtes-D'Armor",
-      "country": "France",
-      "postcode": 34505,
-      "coordinates": {
-        "latitude": "4.1246",
-        "longitude": "119.2730"
-      },
-      "timezone": {
-        "offset": "-3:30",
-        "description": "Newfoundland"
-      }
-    },
-    "email": "lina.andre@example.com",
-    "login": {
-      "uuid": "80944323-41cd-4b4e-bbba-e5369a2538c3",
-      "username": "redtiger420",
-      "password": "reds",
-      "salt": "hUZRt5mT",
-      "md5": "3fbac3264e90628ebad39be2a60143a6",
-      "sha1": "79874ff68d242c89020c2f9f34964c7024b98ef3",
-      "sha256": "fec1b475775023b2ff6cf9fadfcf1023a97622e84ea05d420ad8a000152acf43"
-    },
-    "dob": {
-      "date": "1957-08-10T06:26:10.628Z",
-      "age": 63
-    },
-    "registered": {
-      "date": "2009-09-06T22:09:45.432Z",
-      "age": 11
-    },
-    "phone": "04-13-25-72-09",
-    "cell": "06-66-32-48-86",
-    "id": {
-      "name": "INSEE",
-      "value": "2NNaN66507472 35"
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/women/54.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/women/54.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/54.jpg"
-    },
-    "nat": "FR"
-  }],
-  "info": {
-    "seed": "9c757d9b3a5c4121",
-    "results": 1,
-    "page": 1,
-    "version": "1.3"
-  }
+    {
+      "a": 3,
+      "b": 3,
+      "move": "pileover"
+    }
+  ],
+  "length": 22,
+  "res": ""
 }
