@@ -1,20 +1,18 @@
 {
-  "instructions": [{
-      "a": 1,
-      "b": 1,
+  "Profesores": [{
+      "nombre": "ivan",
+      "apellido": "schmitt",
       "picture": "https://randomuser.me/api/portraits/women/54.jpg"
     },
     {
-      "a": 2,
-      "b": 2,
+      "nombre": "martina",
+      "apellido": "clara",
       "picture": "https://randomuser.me/api/portraits/women/52.jpg"
     },
     {
-      "a": 3,
-      "b": 3,
+      "nombre": "mabel",
+      "apellido": "maria",
       "picture": "https://randomuser.me/api/portraits/women/53.jpg"
     }
-  ],
-  "length": 22,
-  "res": ""
+  ]
 }
