@@ -3,7 +3,7 @@
       "Id": "1",
       "Año": "2019",
       "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
-      "TipoInstitucion" : "escuela",
+      "TipoInstitucion":"escuela",
       "Institucion":"EMM Nº9",
       "Distrito": "José C. Paz",
       "Localidad": "José C. Paz",
@@ -11,14 +11,14 @@
       "Soporte":"Video",
       "Formato":"Documental audiovisual",
       "Representacion":"Iframe",
-      "link":"<iframe width="560" height="315" src="https://www.youtube.com/embed/ITn5Q6W9RQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>",
+      "link":"https://www.youtube.com/embed/ITn5Q6W9RQY",
       "Geo":"-34.925971, -57.946945"
     },
     {
       "Id": "2",
       "Año": "2020",
       "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
-      "TipoInstitucion" : "escuela",
+      "TipoInstitucion":"escuela",
       "Institucion":"EMM Nº2",
       "Distrito": "",
       "Localidad": "",
@@ -33,7 +33,7 @@
       "Id": "3",
       "Año": "schmitt",
       "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
-      "TipoInstitucion" : "escuela",
+      "TipoInstitucion": "escuela",
       "Institucion":"EMM Nº10",
       "Distrito": "",
       "Localidad": "",
