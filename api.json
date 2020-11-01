@@ -2,7 +2,7 @@
   "Profesores": [{
       "Id": "1",
       "Año": "2019",
-      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
+      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg",
       "TipoInstitucion":"escuela",
       "Institucion":"EMM Nº9",
       "Distrito": "José C. Paz",
@@ -17,7 +17,7 @@
     {
       "Id": "2",
       "Año": "2020",
-      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
+      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg",
       "TipoInstitucion":"escuela",
       "Institucion":"EMM Nº2",
       "Distrito": "",
@@ -32,7 +32,7 @@
     {
       "Id": "3",
       "Año": "schmitt",
-      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg"
+      "Descripcion": "https://randomuser.me/api/portraits/women/54.jpg",
       "TipoInstitucion": "escuela",
       "Institucion":"EMM Nº10",
       "Distrito": "",
